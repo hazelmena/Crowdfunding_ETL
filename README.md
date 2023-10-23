@@ -1,4 +1,4 @@
-# Crowdfunding_ETL
+# Crowdfunding-ETL
 A classwork example performing ETL skills on a large dataset. Python was used to extract and transform, SQL is used to load and query the data.
 
 Overview
