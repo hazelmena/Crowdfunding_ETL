@@ -1,15 +1,22 @@
 # Crowdfunding-ETL
-A classwork example performing ETL skills on a large dataset. Python was used to extract and transform, SQL is used to load and query the data.
+This repository contains an example of Extract, Transform, Load (ETL) skills applied to a large dataset using Python and SQL. The project focuses on migrating data from Excel files to a PostgreSQL database. The data is processed and stored to support further analysis by the analytics team, which will generate reports for company stakeholders and project donors.
 
-Overview
+## Overview
+In this project, SQL queries were executed on behalf of "Independent Funding," a crowdfunding platform for supporting independent projects and ventures. The main objective was to migrate data from Excel files into a PostgreSQL database. This data migration sets the foundation for future analysis and reporting.
 
-In this classwork example SQL queries were performed on behalf of "Independent Funding - a crowdfunding platform for funding independent projects or ventures." They requested a data migration from Excel data files into a PostgreSQL database. After migration, the analytics team will perform further analysis as assigned. This will include reports for company stakeholders and individuals who donate to projects.
+## Summary
+Utilizing Python, Pandas, Jupyter Notebook, and PostgreSQL, the following tasks were accomplished:
 
-Summary
+1. **Data Extraction and Transformation:**
+   - Data was extracted from a large Excel file and transformed into smaller, manageable CSV files.
 
-Using Python, Pandas, Jupyter Notebook, and a PostgreSQL database:
+2. **Database Setup:**
+   - A PostgreSQL database was created, and appropriate tables were established based on an Entity-Relationship Diagram (ERD).
 
-Extracted and transformed data from a large Excel file into smaller CSV files
-Created a PostgreSQL database and tables by using an ERD
-Loaded CSV files into a database
-Ran queries to retrieve data and generate reports for stakeholders
+3. **Data Loading:**
+   - The transformed CSV files were loaded into the PostgreSQL database, ensuring data integrity.
+
+4. **Querying and Reporting:**
+   - SQL queries were executed to retrieve and process data. These results will be used to generate reports for stakeholders, including company executives and project donors.
+
+This project serves as a practical example of ETL processes and their significance in managing and analyzing large datasets. The resulting database will facilitate data-driven decision-making and reporting for "Independent Funding."
